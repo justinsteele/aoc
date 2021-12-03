@@ -19,7 +19,7 @@ end
 
 def two(commands)
     horizontal_pos = depth = aim = 0
-    commands.each do |cmd,val|
+    commands.each do |cmd, val|
         case cmd
         when "forward"
             horizontal_pos += val
